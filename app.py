@@ -2,10 +2,6 @@ import streamlit as st
 from supabase import create_client, Client
 import pandas as pd
 
-# Supabase credentials
-SUPABASE_URL = "https://hfwiximcfttzvqzwsatg.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhmd2l4aW1jZnR0enZxendzYXRnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA5MTk3NzEsImV4cCI6MjA1NjQ5NTc3MX0.GtEGe2KYbsA_sxPP8Of921SmBSEv6MQ49HB7JNafXLQ"
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Fake user ID (until auth is added)
 FAKE_USER_ID = 1
